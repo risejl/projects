@@ -1,0 +1,7 @@
+SDL
+SDL_mixer
+SDL_image
+SDL_ttf
+SDL_gfx
+numpy
+pygame
