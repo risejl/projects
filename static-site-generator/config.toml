@@ -1,0 +1,13 @@
+title = "My blog"
+baseURL = ""
+
+types = ["post", "page"]
+
+post.dateInURL = true
+post.sortBy = "date"
+post.sortReverse = true
+
+page.dateInURL = false
+page.sortBy = "title"
+page.sortReverse = false
+

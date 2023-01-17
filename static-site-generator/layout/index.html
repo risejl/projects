@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    {% import "macros.html" as macros %}
+    {{ macros.head(config.title) }}
+    <body>
+        <h1>Posts</h1>
+        <ul>
+        {% for post in content.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a> (posted at {{ post.date }})</li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
+

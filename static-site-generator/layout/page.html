@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    {% import "macros.html" as macros %}
+    {{ macros.head(this.title) }}
+    <body>
+        <h1>{{ this.title }}</h1>
+        {{ this.content }}
+        <p><a href="{{ config.baseURL }}">Return to the homepage &#10558;</a></p>
+    </body>
+</html>

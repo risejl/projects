@@ -1,0 +1,13 @@
+{% macro head(page_title) -%}
+<head>
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+{% endmacro -%}
+{% macro navigation(pages) -%}
+<nav><ul>
+    {% for page in pages %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+</ul></nav>
+{% endmacro -%}
