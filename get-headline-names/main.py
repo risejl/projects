@@ -1,19 +1,25 @@
-import spacy
 import requests
-from collections import Counter
 from bs4 import BeautifulSoup
-
-HEADLINE_URL = "https://lite.cnn.com/en"
+import spacy
 
 nlp = spacy.load('en_core_web_sm')
-response = requests.get(HEADLINE_URL)
-soup = BeautifulSoup(response.content, 'html.parser')
-text = soup.get_text()
-doc = nlp(text)
 
-names = []
-for word in doc.ents:
-    if word.label_ == 'PERSON':
-        names.append(word.lemma_)
-print("The following is the names in today's headline: ")
-print(names)
+HEADLINE = 'https://lite.cnn.com/'
+
+response = requests.get(HEADLINE).text
+soup = BeautifulSoup(response, 'html.parser')
+
+result_set = soup.find_all('li')
+result_string = ''
+for result in result_set:
+    result_string += result.get_text()
+
+doc = nlp(result_string)
+
+for ent in doc.ents:
+    if ent.label_ == 'PERSON':
+        with open('./names.txt', 'a') as f:
+            f.write(ent.text + '\n')
+
+
+            
