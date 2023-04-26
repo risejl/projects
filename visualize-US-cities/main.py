@@ -19,4 +19,5 @@ with open('./cities.csv', 'r') as f:
         colors.append(state_colors[state])
 
 plt.scatter(lons, lats, c=colors)
+plt.title('US-cities')
 plt.show()
