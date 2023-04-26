@@ -7,4 +7,5 @@ A list of small projects
 | weather-reporter   | get the current time and temperature     | Python JavaScript |
 | get-headline-names | get the names in today's new site        | Python            |
 | namesplitter       | a simple test-driven development program | Python            |
+| simulate-crud-app  | simulate a crud program                  | Python            |
 
