@@ -10,4 +10,5 @@ A list of small projects
 | simulate-crud-app             | simulate a crud program                   | Python            |
 | visualize-US-cities           | visualize US cities                       | Python            |
 | visualize-gdp-life-expectancy | visualize gdp life expectancy correlation | Python            |
+| steganography                 | encode and decode message with image      | Python            |
 
