@@ -1,5 +1,0 @@
-markdown
-jinja2
-toml
-pathlib
-inflect

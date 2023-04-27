@@ -1,1 +1,0 @@
-const nftbotABI = 'YOUR CONTRACT ABI';
