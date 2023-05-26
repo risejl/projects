@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+#play-btn-screen {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.play-btn-container {
+  color: white;
+  text-align: center;
+}
+
+#play-btn {
+  background-color: aqua;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem;
+}
+
+#keys {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.keys-container  {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ".    up   ."
+    "left down right";
+  grid-gap: 10px;
+  padding-bottom: 3rem;
+}
+
+#keys button {
+  padding: 0.5rem;
+}
+
+#up {
+  grid-area: up;
+}
+
+#down {
+  grid-area: down;
+}
+
+#left {
+  grid-area: left;
+}
+
+#right {
+  grid-area: right;
+}

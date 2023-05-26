@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./style.css">
+        <title>3D Obstacle Game</title>
+    </head>
+    <body>
+        <div id="play-btn-screen">
+            <div class="play-btn-container">
+                <div>Use the up, down, left and right arrow keys to move</div>
+                <button id="play-btn">Play</button>
+            </div>
+        </div>
+        <div id="keys">
+            <div class="keys-container">
+                <button id="up">
+                    <svg width="30" height="30" viewBox="0 0 10 10">
+                        <g transform="rotate(0, 5, 5)">
+                            <path d="M5,4 L7,6 L3,6 L5,4" />
+                        </g>
+                    </svg>
+                </button>
+                <button id="left">
+                    <svg width="30" height="30" viewBox="0 0 10 10">
+                      <g transform="rotate(-90, 5,5)">
+                        <path d="M5,4 L7,6 L3,6 L5,4" />
+                      </g>
+                    </svg>
+                </button>
+                <button id="down">
+                <svg width="30" height="30" viewBox="0 0 10 10">
+                    <g transform="rotate(180, 5,5)">
+                    <path d="M5,4 L7,6 L3,6 L5,4" />
+                    </g>
+                </svg>
+                </button>
+                <button id="right">
+                <svg width="30" height="30" viewBox="0 0 10 10">
+                    <g transform="rotate(90, 5,5)">
+                    <path d="M5,4 L7,6 L3,6 L5,4" />
+                    </g>
+                </svg>
+                </button>
+            </div>
+        </div>
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
