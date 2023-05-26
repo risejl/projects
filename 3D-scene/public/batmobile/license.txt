@@ -1,0 +1,11 @@
+Model Information:
+* title:	Snyder Batmobile
+* source:	https://sketchfab.com/3d-models/snyder-batmobile-632b047684194913831a2810b635feab
+* author:	mickzaw (https://sketchfab.com/mickzaw)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Snyder Batmobile" (https://sketchfab.com/3d-models/snyder-batmobile-632b047684194913831a2810b635feab) by mickzaw (https://sketchfab.com/mickzaw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

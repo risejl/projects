@@ -12,3 +12,5 @@ A list of small projects
 | visualize-gdp-life-expectancy | visualize gdp life expectancy correlation | Python            |
 | steganography                 | encode and decode message with image      | Python            |
 | 3D-obstacle-avoiding-game     | a simple 3d game using three.js           | JavaScript        |
+| loading-3D-models             | loading models using three.js             | JavaScript        |
+
