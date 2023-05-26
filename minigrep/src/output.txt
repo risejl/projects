@@ -1,0 +1,6 @@
+The query: Do
+The file path: poem.txt
+Do not go gentle into that good night,
+Do not go gentle into that good night.
+Do not go gentle into that good night.
+Do not go gentle into that good night.
